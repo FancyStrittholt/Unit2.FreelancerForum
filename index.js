@@ -4,12 +4,19 @@ const possibleNames = [
   "Lucy",
   "Ryder",
   "Cameron",
-  "Preston",
-  "Valerie",
+  "Mrs Puff",
+  "Old Man",
   "Fancy",
   "Alice",
   "Bob",
   "Carol",
+  "Spongebob",
+  "Sandy",
+  "Patrick",
+  "Squidward",
+  "Pearl",
+  "Plankton",
+  "Karen",
 ];
 const possibleOccupations = [
   "Developer",
@@ -17,11 +24,16 @@ const possibleOccupations = [
   "Cashier",
   "Scientist",
   "Soldier",
-  "Picker",
-  "Amazon Driver",
+  "Boat instructor",
+  "Bus driver",
   "Engineer",
   "Teacher",
   "Programmer",
+  "Game Developer",
+  "Krusty Krab Cook",
+  "Stay at home dad",
+  "Chum Bucket Owner",
+  "Computer Wife",
 ];
 const freelancers = [
   {
@@ -85,7 +97,7 @@ function createDataRow(name, occupation, price) {
 function addFreelancer() {
   render();
 
-  if (freelancers.length >= 10) {
+  if (freelancers.length >= 20) {
     clearInterval(addFreelancerIntervalId);
   }
 
@@ -106,7 +118,7 @@ function calcAverage() {
   const average =
     freelancers.reduce((acc, curr) => acc + curr.price, 0) / freelancers.length;
   const text = document.createTextNode(
-    `The average starting price is $${Math.floor(average)}`
+    `The average starting price is $${Math.floor(average)}.`
   );
   element.replaceChildren(text);
 }
