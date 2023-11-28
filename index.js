@@ -122,7 +122,7 @@ function addFreelancer() {
   // calculating the average in the table
   calcAverage();
 }
-//
+
 function calcAverage() {
   // grabbing the average placeholder id
   const element = document.querySelector("#average");
