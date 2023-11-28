@@ -1,9 +1,5 @@
 const possibleNames = [
-  "James",
-  "Heidi",
-  "Lucy",
-  "Ryder",
-  "Cameron",
+  "Gary",
   "Mrs Puff",
   "Old Man",
   "Fancy",
@@ -23,7 +19,6 @@ const possibleOccupations = [
   "Influencer",
   "Cashier",
   "Scientist",
-  "Soldier",
   "Boat instructor",
   "Bus driver",
   "Engineer",
