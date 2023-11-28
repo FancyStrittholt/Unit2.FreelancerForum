@@ -1,8 +1,8 @@
 const possibleNames = [
   "Gary",
   "Mrs Puff",
-  "Old Man",
-  "Fancy",
+  "Old Man Jenkins",
+  "Bubble Bass",
   "Alice",
   "Bob",
   "Carol",
@@ -13,6 +13,7 @@ const possibleNames = [
   "Pearl",
   "Plankton",
   "Karen",
+  "Flying Dutchman",
 ];
 const possibleOccupations = [
   "Developer",
